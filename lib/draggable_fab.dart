@@ -28,8 +28,8 @@ class _DraggableFabState extends State<DraggableFab> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!
-        .addPostFrameCallback((_) => _getWidgetSize(context));
+    WidgetsBinding.instance
+      .addPostFrameCallback((_) => _getWidgetSize(context));
   }
 
   void _getWidgetSize(BuildContext context) {
